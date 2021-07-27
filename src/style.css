@@ -35,6 +35,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  text-align: left;
   width: auto;
   height: auto;
   margin: 0 auto;

@@ -1,11 +1,11 @@
-htmt {
-  font-size: 16px; 
+html {
+  font-size: 16px;
 }
 
 body {
   display: flex;
   margin: 0 auto;
-  text-align: left; 
+  text-align: left;
   font-size: 2rem;
 }
 
@@ -21,23 +21,23 @@ form {
   margin: 0 auto;
 }
 
- h1 {
-   font-size: 4rem;
-   text-align: left;
- }
+h1 {
+  font-size: 4rem;
+  text-align: left;
+}
 
- h2 {
-   font-size: 3rem;
- }
+h2 {
+  font-size: 3rem;
+}
 
-.main-container, 
+.main-container,
 .title {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   justify-content: space-around;
-  width: auto; 
+  width: auto;
   height: auto;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 .title {
@@ -45,24 +45,24 @@ form {
 }
 
 ul {
-  list-style: none;  
+  list-style: none;
   padding-left: 0;
   width: auto;
   align-self: flex-start;
 }
 
-li { 
+li {
   padding: 0.5rem;
   border-radius: 5px;
 }
 
-li:nth-child(odd) { 
-  background: #d9d9d9; 
+li:nth-child(odd) {
+  background: #d9d9d9;
 }
 
 .recent-scores,
 .add-your-score {
-  border: solid 1px #D9D9D9;
+  border: solid 1px #d9d9d9;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   border-radius: 10px;
   padding: 1rem;
@@ -74,7 +74,7 @@ li:nth-child(odd) {
 }
 
 .refresh-btn {
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
   justify-self: center;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   margin-left: 1.5rem;
@@ -89,7 +89,7 @@ li:nth-child(odd) {
 input {
   font-size: 1.5rem;
   padding: 0.3rem;
-  border: solid .3px #d9d9d9; 
+  border: solid 0.3px #d9d9d9;
   border-radius: 5px;
   margin: 1rem;
 }

@@ -1,4 +1,5 @@
-.hello {
-  color: red;
-  font-size: 5rem;
+main {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
 }

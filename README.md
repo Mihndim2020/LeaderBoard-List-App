@@ -3,7 +3,7 @@
 # LeaderBoard-List-App
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
-![screenshot](images/leader3.png)
+![screenshot](images/leader4.png)
 
 features:
 - Display recent scores

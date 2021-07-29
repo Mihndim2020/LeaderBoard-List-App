@@ -28,7 +28,7 @@ async function addNewScore(event) {
 }
 
 async function refreshScores() {
-  players.innerHTML = "";
+  players.innerHTML = '';
   const response = await fetch(
     'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/tV0qQc99xs0jNy5lTQLw/scores/',
   )

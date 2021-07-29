@@ -25,7 +25,7 @@ const addNewScore = async (event) => {
   playerName.value = '';
   playerScore.value = '';
   return response;
-}
+};
 
 const refreshScores = async () => {
   players.innerHTML = '';
@@ -43,7 +43,7 @@ const refreshScores = async () => {
       });
     });
   return response;
-}
+};
 
 addScore.addEventListener('click', addNewScore);
 refreshBtn.addEventListener('click', refreshScores);

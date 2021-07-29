@@ -4,20 +4,15 @@ html {
 }
 
 body {
-  display: flex;
-  margin: 0 auto;
   text-align: left;
+  margin: 200px;
   font-size: 2rem;
 }
 
-main,
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   align-content: space-around;
-  width: 80%;
   height: auto;
   margin: 0 auto;
 }
@@ -26,6 +21,7 @@ h1 {
   font-size: 5rem;
   padding: 2rem;
   text-align: left;
+  width: 440px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
@@ -33,19 +29,23 @@ h2 {
   font-size: 4rem;
 }
 
-.main-container,
-.title {
+.main-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   text-align: left;
-  width: 80%;
   height: auto;
   margin: 0 auto;
 }
 
 .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  text-align: left;
+  height: auto;
+  margin: 0 auto;  
 }
 
 ul {
@@ -59,6 +59,8 @@ li {
   padding: 0.2rem;
   border-radius: 5px;
   padding-left: 1rem;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
 }
 
 li:nth-child(odd) {
@@ -77,20 +79,19 @@ li:nth-child(even) {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   border-radius: 10px;
   padding: 1rem;
-  margin: 2rem;
 }
 
 .add-your-score {
-  width: 600px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
 }
 
 .recent-scores {
-  width: 1200px;
+  width: 700px;
 }
 
 .recent {
-  margin: 1rem;
+  padding-left: 0.5rem;
 }
 
 .refresh-btn {
@@ -99,7 +100,6 @@ li:nth-child(even) {
   font-weight: bold;
   padding: 0.5rem;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-  margin-left: 1.5rem;
 }
 
 .btn {
@@ -107,6 +107,7 @@ li:nth-child(even) {
   align-self: flex-end;
   font-weight: bold;
   padding: 0.5rem;
+  margin: 17px;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
@@ -116,4 +117,8 @@ input {
   border: solid 0.3px #d9d9d9;
   border-radius: 5px;
   margin: 1rem;
+}
+
+#playerName {
+  margin-top: 45px;
 }

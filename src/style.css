@@ -45,7 +45,7 @@ h2 {
   align-items: center;
   text-align: left;
   height: auto;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 ul {
@@ -60,7 +60,6 @@ li {
   border-radius: 5px;
   padding-left: 1rem;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-
 }
 
 li:nth-child(odd) {

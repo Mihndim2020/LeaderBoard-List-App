@@ -17,7 +17,7 @@ features:
 
 ## Live Demo
 
-Site still under development
+[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started

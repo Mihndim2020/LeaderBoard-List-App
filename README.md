@@ -3,7 +3,7 @@
 # LeaderBoard-List-App
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
-![screenshot](images/leader2.png)
+![screenshot](images/leader4.png)
 
 features:
 - Display recent scores
@@ -17,7 +17,7 @@ features:
 
 ## Live Demo
 
-Site still under development
+[Live Demo Link](https://mihndim2020.github.io/LeaderBoard-List-App/)
 
 
 ## Getting Started
